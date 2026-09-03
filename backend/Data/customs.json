@@ -1,0 +1,173 @@
+[
+  {
+    "pct_code": "8518.30",
+    "description": "Headphones and earphones (wired or wireless), whether or not combined with a microphone, and sets consisting of a microphone and one or more loudspeakers (covers P001 TWS earbuds, P019 over-ear headphones, P020 wired earphones, P025 neckband earphones)",
+    "category": "Electronics",
+    "duty_rate": 20.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 85, page 462 - official PDF screenshot provided by user, Aug 2026 (cross-checked earlier against trademo.com and tipp.gov.pk)",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "8518.22",
+    "description": "Multiple loudspeakers mounted in the same enclosure (covers P005 bluetooth/portable speaker)",
+    "category": "Electronics",
+    "duty_rate": 20.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 85, page 462 - official PDF screenshot provided by user, Aug 2026",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "8517.6970",
+    "description": "Networking equipment like LAN bridges, hubs, switches and repeaters (covers P017 USB hub)",
+    "category": "Electronics",
+    "duty_rate": 3.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 85, page 461 - official PDF screenshot provided by user, Aug 2026",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "8525.8940",
+    "description": "Digital cameras (covers P026 USB webcam)",
+    "category": "Electronics",
+    "duty_rate": 11.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 85, page 464 - official PDF screenshot provided by user, Aug 2026",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "8507.6000",
+    "description": "Lithium-ion batteries / power banks (covers P002, P009 power banks)",
+    "category": "Electronics",
+    "duty_rate": 11.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 85, page ~450 (heading 85.07, subheading 'Lithium-ion') - official PDF screenshot provided by user, Aug 2026",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "8544.4290",
+    "description": "Insulated electric conductors fitted with connectors, 'Other' sub-category (covers P003 USB-C charging cable)",
+    "category": "Electronics",
+    "duty_rate": 20.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 85, page 475 - official PDF screenshot provided by user, Aug 2026. Note: the same page shows a 'Computer leads' sub-heading (8544.4210) at 0% duty - if the cable is specifically declared/classified as a computer lead rather than a generic charging cable, 0% may apply instead. Classification should be confirmed with a customs agent for the actual shipment.",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "9405.1190",
+    "description": "LED luminaires and lighting fittings, 'Other' (covers P004 LED strip light only - see separate entry for P027)",
+    "category": "Electronics",
+    "duty_rate": 20.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 94, page ~ (heading 94.05) - official PDF screenshot provided by user, Aug 2026",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "8513.1030",
+    "description": "Portable electric lamps - Rechargeable emergency light (covers P027 rechargeable emergency LED light) - exact description match, more precise than the general 94.05 lighting-fixture heading",
+    "category": "Electronics",
+    "duty_rate": 11.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 85, page 457, heading 85.13 subheading 8513.1030 'Rechargeable emergency light' - official PDF screenshot provided by user, Aug 2026",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "8504.4020",
+    "description": "Battery chargers (covers P007 wireless charging pad)",
+    "category": "Electronics",
+    "duty_rate": 11.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 85, page 451 (heading 85.04, 'Static converters - Battery chargers') - official PDF screenshot provided by user, Aug 2026",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "8414.5190",
+    "description": "Fans with self-contained electric motor, output not exceeding 125W, 'Other' sub-category (covers P008 mini portable USB fan)",
+    "category": "Electronics",
+    "duty_rate": 20.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 84, page 404 (heading 84.14) - official PDF screenshot provided by user, Aug 2026",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "9105.1100",
+    "description": "Alarm clocks, electrically operated (covers P023 digital alarm clock)",
+    "category": "Electronics",
+    "duty_rate": 20.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 91, page ~ (heading 91.05) - official PDF screenshot provided by user, Aug 2026",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "8470.1000",
+    "description": "Electronic calculators, pocket-size, battery-operated (covers P024 calculator)",
+    "category": "Electronics",
+    "duty_rate": 3.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 84, page 431 (heading 84.70) - official PDF screenshot provided by user, Aug 2026",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "3926.9099",
+    "description": "Other articles of plastics, 'Other' catch-all sub-heading, covers plastic/silicone phone cases and phone holders (covers P011, P012 phone cases, P022 phone holder/car mount)",
+    "category": "Electronics",
+    "duty_rate": 20.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 39, subheading 3926.9099 'Other' - official PDF screenshot provided by user, Aug 2026",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "8517.6290",
+    "description": "Other apparatus under heading 8517.61-8517.79, covers Bluetooth-calling smart watches (covers P006, P010 smart watches)",
+    "category": "Electronics",
+    "duty_rate": 16.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 85, page 461, subheading 8517.6290 'Other' - official PDF screenshot provided by user, Aug 2026. Classification confirmed via WCO ruling and CESTAT India case law (taxguru.in, idt.taxsutra.com) establishing that Bluetooth-calling smart watches classify under 8517.62 rather than 9102 (watch heading) due to communication being the principal function. Since no specific FBR sub-line matches 'smart watch' or 'wearable', it falls to the 8517.6290 'Other' catch-all rate.",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "7007.1900 / 3919.9090",
+    "description": "Toughened/tempered glass (non-vehicle, 'Other') or self-adhesive plastic film ('Other'), covers phone screen protectors regardless of material (covers P016 screen protector)",
+    "category": "Electronics",
+    "duty_rate": 20.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 70 (heading 70.07) and Chapter 39 (heading 39.19) - official PDF screenshots provided by user, Aug 2026. Both possible material classifications (tempered glass vs. plastic film) converge on the same 20% rate.",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "8536.6990",
+    "description": "Lamp-holders, plugs and sockets - Other (covers P018 WiFi/RF smart plug, single socket)",
+    "category": "Electronics",
+    "duty_rate": 20.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 85, page 470, heading 85.36 subheading 8536.6990 'Other' - official PDF screenshot provided by user, Aug 2026. Note: 8536.6910 (plugs/sockets with pins 16+) is 3% but applies to industrial multi-pin connectors, not a standard single-socket household smart plug.",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "8523.5110",
+    "description": "Solid-state non-volatile storage devices - Multimedia memory cards (MMC), SD cards (covers P021 microSD card) - exact description match",
+    "category": "Electronics",
+    "duty_rate": 3.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 85, page ~ heading 85.23 subheading 8523.5110 'Multimedia memory cards (MMC), SD cards' - official PDF screenshot provided by user, Aug 2026",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "9620.0000",
+    "description": "Monopods, bipods, tripods and similar articles (covers P013, P014 selfie stick tripods)",
+    "category": "Electronics",
+    "duty_rate": 20.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 96, heading 96.20 - official PDF screenshot provided by user, Aug 2026",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "pct_code": "8513.1040",
+    "description": "Portable electric lamps - Torches (covers P015 rechargeable LED flashlight/torch) - exact description match",
+    "category": "Electronics",
+    "duty_rate": 11.0,
+    "source": "FBR First Schedule (Pakistan Customs Tariff), Chapter 85, page 457, heading 85.13 subheading 8513.1040 'Torches' - official PDF screenshot provided by user, Aug 2026",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  }
+]

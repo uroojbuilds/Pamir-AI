@@ -1,0 +1,26 @@
+[
+  {
+    "base_currency": "USD",
+    "target_currency": "PKR",
+    "rate": 279.3,
+    "source": "SBP interbank closing rate, as reported by hamariweb.com (hamariweb.com/finance/forex/inter_bank_rates.aspx) and hisaabkar.pk (hisaabkar.pk/rates/usd-pkr-today), both of which cite the State Bank of Pakistan interbank rate directly",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "base_currency": "USD",
+    "target_currency": "PKR",
+    "rate": 278.5,
+    "source": "Open market mid-market rate, linkexchange.com.pk - typically trades within 1-3 PKR of the interbank rate per hisaabkar.pk's explanation of the interbank/open-market spread",
+    "source_date": "2026-08-23",
+    "data_status": "curated"
+  },
+  {
+    "base_currency": "USD",
+    "target_currency": "CNY",
+    "rate": 6.72,
+    "source": "Approximate market rate, not pulled from a live/verified source at time of dataset creation. Provided for indicative CNY-denominated cost estimates only.",
+    "source_date": "2026-08-23",
+    "data_status": "estimated"
+  }
+]

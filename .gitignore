@@ -1,0 +1,25 @@
+# ---- Backend (Python / FastAPI) ----
+backend/.env
+backend/.venv/
+backend/venv/
+backend/venv_new/
+backend/__pycache__/
+backend/services/__pycache__/
+backend/*.db
+backend/users.db
+*.pyc
+
+# ---- Frontend (Node / Vite) ----
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/*.log
+frontend/npm-debug.log*
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

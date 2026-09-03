@@ -1,0 +1,32 @@
+[
+  {
+    "route": "China to Karachi, Pakistan",
+    "shipping_method": "Air",
+    "estimated_cost": 5.0,
+    "currency": "USD",
+    "unit": "per kg",
+    "source": "sino-shipping.com China-to-Pakistan freight update (August 2026) - air freight stable at $5/kg; cross-checked against broader $3-8/kg range reported by tonlexing.com, bsifreight.com, speedaflogisiticspk.com, and docshipper.com",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "route": "China to Karachi, Pakistan",
+    "shipping_method": "Express",
+    "estimated_cost": 8.0,
+    "currency": "USD",
+    "unit": "per kg",
+    "source": "sino-shipping.com China-to-Pakistan freight update (August 2026) - express freight stable at $8/kg; other sources (tonlexing.com) note DHL/FedEx-style express couriers for shipments under 50kg can run higher, $10-20/kg",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  },
+  {
+    "route": "China to Karachi, Pakistan",
+    "shipping_method": "Sea (LCL)",
+    "estimated_cost": 15.0,
+    "currency": "USD",
+    "unit": "per CBM (cubic meter)",
+    "source": "sino-shipping.com China-to-Pakistan freight update (August 2026) - LCL sea freight stable at $15/cbm; cross-checked against $15-20/cbm range reported by speedaflogisiticspk.com and tonlexing.com",
+    "source_date": "2026-08-23",
+    "data_status": "verified"
+  }
+]
