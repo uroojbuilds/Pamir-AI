@@ -1,0 +1,8 @@
+{
+  "name": "PamirAI",
+  "description": "Fluidly interactive trade command canvas for Pakistan-China cross-border sourcing, landed cost intelligence, and FBR tariff analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
