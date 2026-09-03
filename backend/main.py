@@ -12,9 +12,19 @@ import os
 
 
 app = FastAPI()
+
+# Vercel ka filesystem read-only hai (sirf /tmp writable hai). Vercel khud
+# apne functions mein "VERCEL=1" env var set karta hai, isliye hum usko
+# detect karke sirf wahan /tmp use karte hain - local ya Railway pe pehle
+# jaisa hi "users.db" (current folder) use hota hai, koi behavior change nahi.
+# NOTE: Vercel serverless hone ki wajah se /tmp bhi permanent nahi hai - yeh
+# sirf crash fix karta hai, signup/login data Vercel pe persist nahi rahega.
+DB_PATH = "/tmp/users.db" if os.getenv("VERCEL") else "users.db"
+
+
 # ---- SQLite Database Setup (Users ke liye) ----
 def init_db():
-    conn = sqlite3.connect("users.db")
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS users (
@@ -802,7 +812,7 @@ def signup(req: SignupRequest):
     if len(req.password) < 6:
         return {"success": False, "message": "Password kam se kam 6 characters ka hona chahiye.", "error": "Weak password."}
 
-    conn = sqlite3.connect("users.db")
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT id FROM users WHERE email = ?", (req.email,))
     if cursor.fetchone():
@@ -829,7 +839,7 @@ class LoginRequest(BaseModel):
 
 @app.post("/api/login")
 def login(req: LoginRequest):
-    conn = sqlite3.connect("users.db")
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT password_hash FROM users WHERE email = ?", (req.email,))
     row = cursor.fetchone()
