@@ -831,12 +831,14 @@ Built by a team exploring the intersection of:
 
 **AI × Trade × Data × Entrepreneurship**
 
-### Team
+## 👥 Team
 
-* **Urooj Fatima** — Team Lead
-* **Asra Zia**
-* **Amna Zaheer**
-* **Kashaf Fatima**
+| Member | Role |
+|---|---|
+| Urooj Fatima | Team Lead & AI |
+| Asra Zia | AI / Engineering |
+| Amna Zaheer | Data Analyst |
+| Kashaf Fatima | UI/UX fronted designer |
 
 
 
