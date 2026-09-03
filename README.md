@@ -10,7 +10,7 @@ Pamir AI helps first-time Pakistani entrepreneurs and small businesses discover 
 
 ### 💰 “What can I realistically import with my budget?”
 
----
+
 
 ## 🚀 Live Demo
 
@@ -22,7 +22,7 @@ Pamir AI helps first-time Pakistani entrepreneurs and small businesses discover 
 
 ![Pamir AI Demo](assets/demo/pamir-ai-demo.gif)
 
----
+
 
 ## 🎯 The Problem
 
@@ -65,7 +65,7 @@ Marketing
 Launch
 ```
 
----
+
 
 # ✨ Features
 
@@ -75,7 +75,7 @@ Pamir begins with the entrepreneur's available budget and identifies product opp
 
 ![Budget & Category](assets/product/01-budget-category.jpeg)
 
----
+
 
 ### 📦 Alternative Import Lots
 
@@ -83,7 +83,7 @@ Users can explore alternative lot configurations and compare different sourcing 
 
 ![Alternative Lots](assets/product/02-alternative-lots.jpeg)
 
----
+
 
 ### 💵 Landed Cost Estimation
 
@@ -93,7 +93,7 @@ Pamir combines available product, currency, customs, and shipping data to estima
 
 The system keeps numerical calculations deterministic so that the AI explanation layer does not alter the underlying financial calculations.
 
----
+
 
 ### 📊 Viability Analysis
 
@@ -108,7 +108,7 @@ Pamir evaluates an opportunity using a deterministic scoring engine and presents
 
 The Qwen-assisted layer explains the result without becoming the source of truth for the numerical calculation.
 
----
+
 
 ### 🤝 Supplier Information & Matching
 
@@ -118,7 +118,7 @@ Pamir organizes available supplier information and matches products with the sup
 
 > Supplier matching uses the supplier records available in Pamir's current dataset. The system does not fabricate competing suppliers where multiple verified records are unavailable.
 
----
+
 
 ### 📝 RFQ Generation
 
@@ -126,7 +126,7 @@ Pamir generates structured RFQ drafts that entrepreneurs can use as a starting p
 
 > RFQs are preparation tools and are **not live supplier quotations**.
 
----
+
 
 ### 🧾 Customs & Import Guidance
 
@@ -136,7 +136,7 @@ Pamir uses structured customs/tariff information to provide product-specific imp
 
 > This information is provided for planning purposes and should not be treated as legal, tax, or customs advice.
 
----
+
 
 ### 🇨🇳 China Lots Directory
 
@@ -144,7 +144,7 @@ A structured interface for exploring available product and sourcing opportunitie
 
 ![China Lots Directory](assets/product/06-china-lots-directory.jpeg)
 
----
+
 
 ### 🤖 AI-Assisted Reasoning
 
@@ -158,7 +158,7 @@ The AI layer is designed to:
 * Distinguish between verified, estimated, curated, and unavailable information
 * Avoid inventing market demand, supplier verification, profit guarantees, or regulatory requirements
 
----
+
 
 ### 📣 Marketing Studio
 
@@ -170,13 +170,13 @@ Generate marketing copy for discovered opportunities in:
 
 The current implementation uses deterministic templates, with a future-ready adapter for expanded AI media generation.
 
----
+
 
 ### 🚀 Launch Kit
 
 Pamir combines key opportunity information into a practical launch-oriented workflow, helping users move from analysis toward action.
 
----
+
 
 ### 🔍 Transparent Decision Trail
 
@@ -184,7 +184,7 @@ Important decisions are designed to remain understandable instead of becoming un
 
 ![Audit Trail](assets/product/07-audit-trail.jpeg)
 
----
+
 
 # 🧠 How It Works
 
@@ -230,7 +230,7 @@ Relevant customs and import information is surfaced where available.
 
 The user can generate marketing content and assemble a practical launch workflow.
 
----
+
 
 # 🏗️ Architecture
 
@@ -287,7 +287,7 @@ The user can generate marketing content and assemble a practical launch workflow
                               └──────────────┘
 ```
 
----
+
 
 # 🛠️ Tech Stack
 
@@ -306,7 +306,7 @@ The user can generate marketing content and assemble a practical launch workflow
 | Future Integration Layer | Accio adapter, Wanx adapter                           |
 | Deployment               | Vercel                                                |
 
----
+
 
 # 🤖 AI & Integration Status
 
@@ -349,7 +349,7 @@ Pamir does not perform or guarantee Alibaba Trade Assurance transactions.
 
 Any `trade_assurance` information in the dataset represents data available to Pamir and is **not independent transaction verification**.
 
----
+
 
 # 📁 Project Structure
 
@@ -402,7 +402,7 @@ Pamir-AI/
 └── README.md
 ```
 
----
+
 
 # 📡 API Endpoints
 
@@ -438,7 +438,7 @@ Pamir's backend is built with FastAPI.
 | `/api/marketing`         | POST   | Generate marketing content                                 |
 | `/api/launch-kit`        | POST   | Generate a combined launch workflow                        |
 
----
+
 
 # ⚙️ Getting Started
 
@@ -448,7 +448,7 @@ Pamir's backend is built with FastAPI.
 * Node.js / npm
 * Required API credentials for enabled services
 
----
+
 
 ## Backend Setup
 
@@ -517,7 +517,7 @@ FastAPI interactive documentation:
 http://127.0.0.1:8000/docs
 ```
 
----
+
 
 # 💻 Frontend Setup
 
@@ -561,7 +561,7 @@ Build the production frontend:
 npm run build
 ```
 
----
+
 
 # 🔐 Environment Variables
 
@@ -630,7 +630,7 @@ Because serverless environments do not provide the same persistent local filesys
 
 A future production deployment should migrate persistent user data to a managed database.
 
----
+
 
 # 📊 Data Architecture
 
@@ -658,7 +658,7 @@ Provides shipping assumptions used by the landed-cost engine.
 
 This structured approach allows the system to produce repeatable calculations rather than relying entirely on free-form AI responses.
 
----
+
 
 # 🛡️ Reliability & Transparency
 
@@ -696,7 +696,7 @@ The AI layer is instructed not to fabricate:
 
 When information is unavailable, incomplete, or estimated, the application is designed to communicate that limitation.
 
----
+
 
 # ⚠️ Important Limitations
 
@@ -713,7 +713,7 @@ Pamir AI currently does **not** claim to:
 
 Pamir is a decision-support prototype, not a substitute for independent commercial and regulatory verification.
 
----
+
 
 # 🗺️ Roadmap
 
@@ -761,7 +761,7 @@ Pamir is a decision-support prototype, not a substitute for independent commerci
 * [ ] Personalized launch plans
 * [ ] Expanded Pakistan-China trade intelligence
 
----
+
 
 # 🌏 Long-Term Vision
 
@@ -791,7 +791,7 @@ Business Intelligence
 
 > **Make data-driven importing more accessible to entrepreneurs starting with limited capital.**
 
----
+
 
 # 📸 Product Walkthrough
 
@@ -811,7 +811,7 @@ All product visuals are included in the repository under:
 assets/product/
 ```
 
----
+
 
 # 🏆 Current Status
 
@@ -823,11 +823,11 @@ Pamir AI currently provides an end-to-end workflow covering:
 
 The architecture is also prepared for future external service integrations while clearly distinguishing implemented functionality from planned integrations.
 
----
+
 
 # 👥 Team
 
-Built by a student team exploring the intersection of:
+Built by a team exploring the intersection of:
 
 **AI × Trade × Data × Entrepreneurship**
 
@@ -838,7 +838,7 @@ Built by a student team exploring the intersection of:
 * **Amna Zaheer**
 * **Kashaf Fatima**
 
----
+
 
 # 🏔️ Why "Pamir"?
 
@@ -848,7 +848,7 @@ The name reflects the project's core idea:
 
 > **Connecting entrepreneurs with opportunities across borders.**
 
----
+
 
 # ❤️ Built With Purpose
 
@@ -863,7 +863,7 @@ Understand the numbers.
 Evaluate the opportunity.
 Plan the launch.**
 
----
+
 
 <p align="center">
 
