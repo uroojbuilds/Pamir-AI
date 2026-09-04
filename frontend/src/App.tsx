@@ -26,9 +26,12 @@ import { AuditTrailView } from './components/AuditTrailView';
 import { CatalogView } from './components/CatalogView';
 import { CargoReportModal } from './components/CargoReportModal';
 import { Toast } from './components/Toast';
+import { LoginPage } from './components/LoginPage';
+import { authService } from './services/authService';
 
 export default function App() {
   const [currentView, setCurrentView] = useState<'hero' | 'app'>('hero');
+  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(() => authService.isAuthenticated());
   const [activeTab, setActiveTab] = useState<ActiveNavTab>('sourcing');
   const [activePresetId, setActivePresetId] = useState<string | null>('lot_p001');
 
@@ -286,6 +289,11 @@ State Bank of Pakistan Exchange Rate: Rs 279.30 / USD
     showToast("Audit trail reset to initial baseline.");
   };
 
+  // View 0: Login / Signup Gate
+  if (!isAuthenticated) {
+    return <LoginPage onAuthenticated={() => setIsAuthenticated(true)} />;
+  }
+
   // View 1: Fullscreen Launchpad
   if (currentView === 'hero') {
     return (
@@ -312,6 +320,17 @@ State Bank of Pakistan Exchange Rate: Rs 279.30 / USD
               className="w-full py-1.5 px-3 rounded-lg bg-[#FAF8F5] dark:bg-stone-900 hover:bg-stone-100 dark:hover:bg-stone-800 text-[11px] font-mono text-[#C2410C] dark:text-[#FB923C] border border-stone-200 dark:border-stone-700 flex items-center justify-center gap-1.5 transition-all cursor-pointer font-bold shadow-2xs"
             >
               <span>← Back to Launchpad</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                authService.logout();
+                setIsAuthenticated(false);
+                setCurrentView('hero');
+              }}
+              className="w-full mt-2 py-1.5 px-3 rounded-lg bg-white dark:bg-transparent hover:bg-stone-100 dark:hover:bg-stone-800 text-[11px] font-mono text-stone-500 dark:text-stone-400 border border-stone-200 dark:border-stone-700 flex items-center justify-center gap-1.5 transition-all cursor-pointer font-bold"
+            >
+              <span>Log Out</span>
             </button>
           </div>
 

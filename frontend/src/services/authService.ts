@@ -35,6 +35,33 @@ async function signup(email: string, password: string): Promise<AuthPayload> {
 
 export const authService = {
   /**
+   * Real login against the backend with user-entered credentials.
+   * Caches the resulting token so subsequent requests are authenticated.
+   */
+  async login(email: string, password: string): Promise<AuthPayload> {
+    const result = await login(email, password);
+    apiClient.setAuthToken(result.token);
+    return result;
+  },
+
+  /**
+   * Real signup against the backend with user-entered credentials.
+   * Caches the resulting token so subsequent requests are authenticated.
+   */
+  async signup(email: string, password: string): Promise<AuthPayload> {
+    const result = await signup(email, password);
+    apiClient.setAuthToken(result.token);
+    return result;
+  },
+
+  /**
+   * Returns true if a session token is already cached (user is signed in).
+   */
+  isAuthenticated(): boolean {
+    return !!apiClient.getAuthToken();
+  },
+
+  /**
    * Ensures apiClient holds a valid Bearer token, logging in (or signing up
    * on first run) the demo account if necessary. Safe to call many times -
    * concurrent callers share one in-flight request, and a cached token from
